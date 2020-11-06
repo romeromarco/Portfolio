@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #2193b0;
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+background: linear-gradient(to right, #6dd5ed, #2193b0); 
+}
+
+header {
+    font-family: 'Yellowtail', cursive;
+    color: darkorange;
+    font-size: 200px;
+   text-align: center;
+}
+
+.fotocv {
+  position: relative;
+  left: 840px;
+ /*justify-content: center;
+  align-items: center;*/ /* NO ME LO TOMA ESTOY MUY ENOJADO CON LA VIDA (?*/
+border-radius: 250px;
+border-style: solid;
+border-color: darkorange;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+h3{
+    font-family: 'DM Mono', monospace;
+    position: relative;
+    left: 500px;
+    /*justify-content: center;
+    align-items: center;*/ /* NO ME LO TOMA ESTOY MUY ENOJADO CON LA VIDA (? x2*/
+    width: 1000px;
+    height: 1000px;
+}
