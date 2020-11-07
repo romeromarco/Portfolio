@@ -4,19 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&family=Press+Start+2P&display=swap');
 
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/*FONDO*/
 body{
     background: #2193b0;
 background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
 background: linear-gradient(to right, #6dd5ed, #2193b0); 
 }
 
+
+/*HEADER*/
 header {
     font-family: 'Yellowtail', cursive;
     color: darkorange;
@@ -24,6 +27,7 @@ header {
    text-align: center;
 }
 
+/*FOTO*/
 .fotocv {
   position: relative;
   left: 840px;
@@ -34,6 +38,7 @@ border-style: solid;
 border-color: darkorange;
 }
 
+/*ABOUT ME*/
 h2 {
     font-family: 'Press Start 2P', cursive;
     color: black;
@@ -42,6 +47,12 @@ h2 {
    align-items: center;
 }
 
+h2:hover{
+    color: blue;
+    font-style: italic;
+}
+
+/*TEXTO ABOUT ME*/
 h3{
     font-family: 'DM Mono', monospace;
     position: relative;
@@ -50,4 +61,73 @@ h3{
     align-items: center;*/ /* NO ME LO TOMA ESTOY MUY ENOJADO CON LA VIDA (? x2*/
     width: 1000px;
     height: 1000px;
+}
+
+/*GRID*/
+.textogrid{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-style: bold;
+}
+
+.grid-container{
+    display: grid;
+}
+
+.cuadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: solid;
+    background-color: #f5861f
+}
+
+/*FLEX BOX SKILLS*/
+.textoflex {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-style: bold;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.flexcuadrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: solid;
+    background-color: #f5861f
+}
+
+/*FORM*/
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#mensaje {
+    width: 500px;
+    height: 300px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
